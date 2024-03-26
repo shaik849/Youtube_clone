@@ -10,7 +10,11 @@ const list = [
     "HTML",
     "Programming",
     "CSS",
-    "Biryani"
+    "Biryani",
+    "Programming",
+    "CSS",
+    "Biryani",
+    "CSS",
   ];
 
 const ButtonList = () => {
@@ -19,7 +23,7 @@ const ButtonList = () => {
 
     
       return (
-        <div className='flex'>
+        <div className='flex justify-center'>
             {list.map((name, index) => (
               <Button key={index} name={name} />
             ))}
